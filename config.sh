@@ -27,6 +27,11 @@ export EXTRA_CMD="export OF_MAINTAINER=JayPDX"
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
 export OF_USE_LATEST_MAGISK=true
+export FOX_USE_NANO_EDITOR=1
+export OF_AB_DEVICE=1
+export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
+export OF_ALLOW_DISABLE_NAVBAR=0
+export OF_DISABLE_DM_VERITY_FORCED_ENCRYPTION=1
 
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
